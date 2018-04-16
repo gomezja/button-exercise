@@ -7,20 +7,28 @@
 /* CUSTOM BUTTON
 /*****************************************************/
 .button {
-    text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 4px;
 
-    color: #287d88;
-    background-color: #ecfffb;
-
-    padding: 17px 24px;
+    padding: 8px 12px;
     border-radius: 5px;
 
     border: none;
     outline: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+/*****************************************************/
+/* BUTTON 1
+/*****************************************************/
+.btn-1 {
+    color: #287d88;
+    background-color: #ecfffb;
 
     box-shadow: 0px 3px 5px rgba(50,50,93,0.1),
                 0px 1px 3px rgba(0,0,0,0.07);
@@ -29,14 +37,28 @@
     transition-duration: 0.2s;
 }
 
-.button:hover {
-    cursor: pointer;
-    
+.btn-1:hover {
     background-color: #dcfcf5;
 
     box-shadow: 0px 3px 15px rgba(50,50,93,0.1),
                 0px 1px 10px rgba(0,0,0,0.07);
 
+    /* shift up 1px */
     position: relative;
     top: -1px;
+}
+
+/*****************************************************/
+/* BUTTON 2
+/*****************************************************/
+.btn-2 {
+    color: #1b5db3;
+    background-color: transparent;
+
+    border: 1px solid #1b5db3;
+}
+
+.btn-2:hover {
+    color: #f1f1f1;
+    background-color: #1b5db3;
 }
