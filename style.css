@@ -127,3 +127,21 @@
     position: relative;
     top: -2px;
 }
+
+/*****************************************************/
+/* BUTTON 6
+/*****************************************************/
+.btn-6 {
+    color: #6b6b6b;
+    background-color: #dfdfdf;
+
+    border-radius: 2px;
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn-6-clicked {
+    color: #ffffff;
+    background-color: #18a547;
+}
