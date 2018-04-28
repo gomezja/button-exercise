@@ -83,7 +83,7 @@
 }
 
 .btn-3:hover:after {
-    content: "Hello World!";
+    content: "Hover";
 }
 
 /*****************************************************/
@@ -97,13 +97,6 @@
                 0px 1px 3px rgba(0,0,0,0.07);
 
     border-radius: 8px;
-}
-
-.btn-4:hover {
-    background: linear-gradient(-135deg, blue, purple);
-
-    box-shadow: 0px 3px 15px rgba(50,50,93,0.1),
-                0px 1px 10px rgba(0,0,0,0.07);
 }
 
 /*****************************************************/
@@ -120,9 +113,6 @@
 }
 
 .btn-5:hover {
-    box-shadow: 0px 3px 15px rgba(50,50,93,0.25),
-                0px 1px 10px rgba(0,0,0,0.07);
-
     /* shift up 1px */
     position: relative;
     top: -2px;
@@ -144,4 +134,28 @@
 .btn-6-clicked {
     color: #ffffff;
     background-color: #18a547;
+}
+
+/*****************************************************/
+/* BUTTON 7
+/*****************************************************/
+.btn-7 {
+    color: #ffffff;
+    background-color: #eb8908;
+
+    border-radius: 9px;
+    border: 2px solid #ca7608;
+
+    box-shadow: 0px 3px 5px rgba(50,50,93,0.1),
+                0px 1px 3px rgba(0,0,0,0.07);
+    text-shadow: 0px 2px 3px rgba(50,50,93,0.7);
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn-7:active {
+    /* shift up 2px */
+    position: relative;
+    top: -2px;
 }
